@@ -78,14 +78,17 @@ aws s3api create-bucket --bucket datalake-unicorn-recommendations --region us-ea
 
 - inference-results
 ```
-  create-table
-    --attribute-definitions ID=string,Result=string
-    --table-name inference-results
+  aws dynamodb create-table \
+    --attribute-definitions ID=string,Result=string \
+    --table-name inference-results \
     --key-schema AttributeName=ID,KeyType=Hash,AttributeName=Result,KeyType=Range
 ```
 
 ### SQS
 
+```
+aws sqs create-queue --queue-name sistema-recomendacao
+```
 
 
 
