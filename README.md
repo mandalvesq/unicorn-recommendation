@@ -2,7 +2,7 @@
 
 Instruções para fazer o deploy da solução em qualquer conta da AWS.
 
-## Primeiro passo
+## Deploy da Solução
 
 - Crie todas as policies e roles para os respectivos serviços necessários para criar todos os recursos da POC.
 
