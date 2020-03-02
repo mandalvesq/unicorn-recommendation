@@ -1,9 +1,12 @@
 # Unicorn Recommendation
 
-Instruções para fazer o deploy da solução em qualquer conta da AWS.
+Sistema de recomendação de produto financeiro baseado em ML. 
 
 ## Deploy da Solução
 
+Para fazer o deploy da solução em uma conta AWS, siga os procedimentos abaixo.
+
+# IAM 
 - Crie todas as policies e roles para os respectivos serviços necessários para criar todos os recursos da POC.
 
 - Lambda csv-to-dynamo-sqs-role:
