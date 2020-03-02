@@ -97,6 +97,7 @@ aws sqs create-queue --queue-name sistema-recomendacao
 ## Códigos
 
 Os respectivos códigos da solução estão versionados nas pastas: glue, lambdas e notebook.
+versão: `python3.7` 
 
 ## Machine Learning
 
