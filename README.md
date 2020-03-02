@@ -29,7 +29,7 @@ Instruções para fazer o deploy da solução em qualquer conta da AWS.
     - Permissoes:
       - S3
 
-## Segundo passo
+## Criação de recursos AWS
 
 - Criar todos os recursos da arquitetura 
 
@@ -91,7 +91,12 @@ aws sqs create-queue --queue-name sistema-recomendacao
 ```
 
 
+## Códigos
 
+Os respectivos códigos da solução estão versionados nas pastas: glue, lambdas e notebook.
 
+## Machine Learning
 
+Para criar o notebook para executar o notebook, siga os seguintes passos: 
 
+- TDB
